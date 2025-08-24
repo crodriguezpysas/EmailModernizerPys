@@ -1,0 +1,13 @@
+﻿<Window x:Class="EmailModernizerPys.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Email Modernizer Pys" Height="350" Width="600">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Procesamiento de Emails" FontSize="18" Margin="0,0,0,10"/>
+            <Button Name="btnProcesar" Content="Procesar Emails" Width="150" Height="30" Click="BtnProcesar_Click"/>
+            <TextBlock Text="Log:" FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBox Name="txtLog" Height="200" VerticalScrollBarVisibility="Auto" IsReadOnly="True" TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Window>
