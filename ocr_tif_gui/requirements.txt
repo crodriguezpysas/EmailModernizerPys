@@ -1,0 +1,11 @@
+# Dependencias de ocr_tif_gui
+# Instalar con: pip install -r requirements.txt
+
+# OCR y procesamiento de imagen
+pytesseract>=0.3.10
+Pillow>=10.0.0
+opencv-python-headless>=4.8.0  # opcional, mejora el preprocesamiento
+numpy>=1.24.0                   # requerido por opencv
+
+# tkinter viene incluido con Python estándar y no se instala con pip.
+# Si falta en Linux: sudo apt-get install python3-tk
